@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<link rel=stylesheet href=style.css>
+<script src=script.js defer></script>
+
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap">
+<title>My Portfolio</title>
+</head>
+<body>
+<nav class=nav>
+<div class=nav-list>
+<a href=#welcome-section>Welcome</a>
+<a href=#projects>Projects</a>
+<a href=#contact>Contact</a>
+</div>
+</nav>
+<section class=video-section id=welcome-section>
+<video autoplay loop muted class=background-video>
+<source src=video.mp4 type=video/mp4>
+Your browser does not support the video tag.
+</video>
+<div class=content>
+<div class=welcome-text id=welcome-text></div>
+</div>
+</section>
+<section class=introduction-section id=introduction>
+<div class=introduction-container>
+<div class=introduction-text-container>
+<h2>Introduction</h2>
+<div class=introduction-text id=introduction-text></div>
+</div>
+<div class=profile-container>
+<img src=MyPic.jpg alt=Aditya>
+</div>
+</div>
+</section>
+<section class=certificate-award-section id=certificate-award>
+<div class=certificate-award-container>
+<h2>Certificates & Awards</h2>
+<div class=certificates>
+<div class=certificate>
+<img src=sql.png alt="Certificate 1" id=certificate-img-1>
+</div>
+<div class=certificate>
+<img src=GradCerti.png alt="Certificate 2" id=certificate-img-2>
+</div>
+<div class=certificate>
+<img src=webdeveloperCertificate.png alt="Certificate 3" id=certificate-img-3>
+</div>
+</div>
+</div>
+</section>
+<section class=projects-section id=projects>
+<div class=projects-section-header>
+<h2>My Projects</h2>
+</div>
+<div class=projects-grid>
+<div class=project>
+<div class=cmd-window>
+<pre class=cmd-text>
+                        <span class="cmd-prompt">$</span>
+                            import java.util.Scanner;
+
+                            public class Main {
+                                public static void main(String[] args) {
+                                    Scanner scanner = new Scanner(System.in);
+                                    System.out.println("Enter your name:");
+                                    String name = scanner.nextLine();
+                                    System.out.println("Hello, " + name + "!");
+                                    scanner.close();
+                                }
+                            }
+
+                    </pre>
+</div>
+<div class=project-title>
+Learning CardViewDemo
+</div>
+<a href=https://github.com/adi6504/CardViewDemo class="btn code" data-url=https://www.example.com/project1>View Code</a>
+</div>
+<div class=project>
+<div class=cmd-window>
+<pre class=cmd-text>
+                        <span class="cmd-prompt">$</span> 
+                            using System;
+
+                            namespace HelloWorldApp {
+                                class Program {
+                                    static void Main(string[] args) {
+                                        Console.WriteLine("Enter your name:");
+                                        string name = Console.ReadLine();
+                                        Console.WriteLine("Hello, " + name + "!");
+                                    }
+                                }
+                            }
+
+                    </pre>
+</div>
+<div class=project-title>
+Learning Calculator
+</div>
+<a href=https://github.com/adi6504/Calculator class="btn code" data-url=https://www.example.com/project1>View Code</a>
+</div>
+<div class=project>
+<div class=cmd-window>
+<pre class=cmd-text>
+                        <span class="cmd-prompt">$</span> 
+                            
+                            int main() {
+                                std::string name;
+                                std::cout << "Enter your name: ";
+                                std::getline(std::cin, name);
+                                std::cout << "Hello, " << name << "!" << std::endl;
+                                return 0;
+                            }
+                            
+                    </pre>
+</div>
+<div class=project-title>
+Learning SQLite
+</div>
+<a href=https://github.com/adi6504/SQLiteDemo class="btn code" data-url=https://www.example.com/project1>View Code</a>
+</div>
+<div class=project>
+<div class=cmd-window>
+<pre class=cmd-text>
+                        <span class="cmd-prompt">$</span> 
+                        def fibonacci(n):
+                        if n <= 0:
+                            return "Invalid input"
+                        elif n == 1:
+                            return 0
+                        elif n == 2:
+                            return 1
+                        else:
+                            a, b = 0, 1
+                            for _ in range(n - 2):
+                                a, b = b, a + b
+                            return b
+
+                    print(f"Fibonacci number at position 10: {fibonacci(10)}")
+
+                    </pre>
+</div>
+<div class=project-title>
+Learning Recycler-View
+</div>
+<a href=https://github.com/adi6504/Recycler-View class="btn code" data-url=https://www.example.com/project1>View Code</a>
+</div>
+</div>
+<a href=# class="btn btn-show-all">Show All Projects <i class="fas fa-arrow-right"></i></a>
+</section>
+<section class=contact-section id=contact>
+<div class=contact-section-header>
+<h2>Let's meet and Have a coffee!</h2>
+<p>Feel free to reach out to me for any collaboration or project.</p>
+</div>
+<div class=contact-links>
+<a href=mailto:reachaditya6504@gmail.com class=contact-details>
+<img src=gmail.png alt="Email Icon">
+</a>
+<a href=https://www.linkedin.com/in/adityaparmar092781219 class=contact-details>
+<img src=linkedin.png alt="LinkedIn Icon">
+</a>
+<a href=https://github.com/adi6504 class=contact-details>
+<img src=github.png alt="GitHub Icon">
+</a>
+</a>
+<a href=https://www.instagram.com/_adiii_672 class=contact-details>
+<img src=instagram.png alt="Instagram Icon">
+</a>
+</a>
+<a href=http://vsco.co/adi6504 class=contact-details>
+<img src=vsco.png alt="VSCO Icon">
+</a>
+</div>
+</section>
+<footer>
+<p>&copy; 2023 My Portfolio</p>
+</footer>
+<script src=https://kit.fontawesome.com/a076d05399.js></script>
+</body>
+</html>

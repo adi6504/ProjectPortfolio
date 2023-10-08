@@ -1,0 +1,18 @@
+Open a Command Prompt (Windows) or Terminal (Mac/Linux).
+
+Navigate to your website's directory using the cd command. For example:
+
+bash
+Copy code
+cd C:\Users\adity\OneDrive\Desktop\My Website
+Start a Python HTTP server. If you're using Python 3, you can use the following command:
+
+Copy code
+python -m http.server
+If you're using Python 2, you can use:
+
+Copy code
+python -m SimpleHTTPServer
+
+Access your website in your browser. Open your web browser and go to http://localhost:8000/index.html. This will serve your website using a local server, allowing you to test features like autoplaying videos.
+
